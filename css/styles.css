@@ -1,0 +1,86 @@
+@font-face {
+  font-family: "Boots And Spurs";
+  src: url(../fonts/BootsAndSpurs.ttf) format("truetype");
+}
+
+body {
+  background-color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  margin: 0;
+  text-decoration: none;
+}
+
+h1,
+h2,
+.logo {
+  font-family: "Boots And Spurs", "Segoe UI", Tahoma, Geneva, Verdana,
+    sans-serif;
+}
+
+.logo {
+  display: block;
+  text-decoration: none;
+}
+.my-header {
+  background-color: black;
+  color: white;
+  height: 48px;
+  text-decoration: none;
+}
+
+.navi li {
+  padding: 0px;
+  display: block;
+  float: right;
+}
+
+.main-bimg {
+  background-image: url("../images/home-header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+  min-height: 70vh;
+}
+
+.buttonvg {
+  background-color: red;
+  color: seashell;
+  border: 2px solid;
+}
+
+.proimg {
+  border-radius: 20%;
+  height: 400px;
+}
+
+.reviews {
+  background-color: gray;
+  height: fit-content;
+}
+.imgrev {
+  border-radius: 100%;
+}
+
+.footer {
+  height: 162px;
+  background-color: black;
+  color: aliceblue;
+}
+
+/*guitars*/
+.view-button {
+  background-color: red;
+  text-decoration: solid black;
+}
+
+.guitars {
+  font-family: "Roboto", sans-serif;
+}
+
+/* comtact*/
+.contact-send {
+  background-color: red;
+  color: seashell;
+}
